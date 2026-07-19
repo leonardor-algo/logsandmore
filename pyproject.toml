@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "logsandmore"
+version = "1.0.0"
+description = "Sistema de logs avanzado y personalizable para Python con niveles personalizados"
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [
+    {name = "Leonardo"}
+]
+
+keywords = [
+    "logging",
+    "logs",
+    "logger",
+    "debug",
+    "python",
+    "security",
+    "events"
+]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Leonardo/logsandmore"
+Repository = "https://github.com/Leonardo/logsandmore"
